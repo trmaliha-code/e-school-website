@@ -1,0 +1,136 @@
+header {
+  background-color: #f0fff0;
+}
+.container {
+  margin-bottom: 80px;
+}
+
+.navbar {
+  padding: 30px 0 100px;
+}
+.nav-link {
+  margin: 0 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.banner {
+  padding-bottom: 60px;
+}
+
+.signin,
+.get-started,
+form button {
+  color: white !important;
+  background-color: #21b573;
+  border-radius: 33px;
+  width: 104px;
+  height: 43px;
+  text-align: center;
+}
+.get-started {
+  padding: 12px 36px;
+}
+
+.banner-ques {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  /* font-size: 16px; */
+  line-height: 24px;
+  color: #fd511a;
+}
+.banner-heading {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 70px;
+}
+.banner-text {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 36px;
+  color: #6c6b6b;
+  padding: 20px 0 25px;
+}
+.green-clr {
+  color: #21b573;
+}
+
+.arranged-books {
+  width: 270px;
+  height: 270px;
+  background: #f8fffb;
+  border-radius: 10px;
+}
+.arranged-books:hover {
+  background: #ffffff;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+}
+.card-img-top {
+  border-radius: 11px;
+  padding: 20px 20px 0;
+}
+
+.container-review {
+  width: 755px;
+  margin: 0 auto;
+}
+.rounded-circle {
+  width: 120px;
+  height: 120px;
+}
+
+footer {
+  background: #282531;
+}
+
+footer p,
+.link-course,
+.link-terms,
+.link-useful,
+.copyright {
+  list-style-type: none;
+  color: white;
+  padding: 70px 0;
+}
+.copyright {
+  padding-bottom: 15px;
+}
+
+footer .container {
+  margin-bottom: 0;
+}
+
+#contact {
+  background-color: #f0fff0;
+  padding: 100px 0;
+}
+form input,
+form textarea {
+  width: 500px;
+  border-radius: 18px;
+  padding: 12px 20px;
+  border: 0;
+}
+form button {
+  width: 200px;
+  margin: 30px 150px;
+  border: 0;
+}
+
+.text-center {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+}
