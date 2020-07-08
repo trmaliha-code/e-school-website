@@ -1,9 +1,6 @@
 header {
   background-color: #f0fff0;
 }
-.container {
-  margin-bottom: 80px;
-}
 
 .navbar {
   padding: 30px 0 100px;
@@ -14,42 +11,73 @@ header {
   font-weight: 400;
 }
 
-.banner {
-  padding-bottom: 60px;
+.banner,
+#blog {
+  padding-bottom: 80px;
 }
 
+.signin {
+  width: 104px;
+  height: 43px;
+}
 .signin,
 .get-started,
+.buy-course,
 form button {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
   color: white !important;
   background-color: #21b573;
   border-radius: 33px;
-  width: 104px;
-  height: 43px;
   text-align: center;
+  border: 0;
+  padding: 10px 30px;
+  cursor: pointer;
 }
 .get-started {
-  padding: 12px 36px;
+  text-decoration: none !important;
 }
 
-.banner-ques {
+.signin:hover,
+.get-started:hover,
+.buy-course:hover,
+form button:hover {
+  background-color: #0875f7;
+}
+
+.text-center,
+.banner-ques,
+.banner-heading,
+.banner-text,
+.arranged-books h3,
+.arranged-books p,
+.time small,
+.seat small,
+.card-title,
+.card-text,
+.review-text,
+footer p,
+.link-course,
+.link-terms,
+.link-useful,
+.copyright {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
-  /* font-size: 16px; */
   line-height: 24px;
+}
+
+.banner-ques {
   color: #fd511a;
 }
 .banner-heading {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 48px;
   line-height: 70px;
 }
 .banner-text {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
   font-weight: 300;
   line-height: 36px;
   color: #6c6b6b;
@@ -57,6 +85,10 @@ form button {
 }
 .green-clr {
   color: #21b573;
+}
+
+#books {
+  padding: 60px 0 90px;
 }
 
 .arranged-books {
@@ -70,14 +102,50 @@ form button {
   box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
 }
 
+.arranged-books h3,
+.card-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #413960;
+  padding-top: 25px;
+}
+.arranged-books p,
+.card-text,
+.time small,
+.seat small {
+  color: #585859;
+}
+.time small,
+.seat small {
+  font-weight: 500;
+}
+
+#courses {
+  padding: 20px 0 120px;
+}
 .card {
-  border-radius: 18px;
   background: #ffffff;
   box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
 }
 .card-img-top {
   border-radius: 11px;
   padding: 20px 20px 0;
+}
+
+.card-title {
+  color: #413960;
+}
+.card-text {
+  padding-bottom: 10px;
+}
+.card-footer {
+  border-radius: 18px !important;
+  background-color: white;
+  border-top: 0;
+  padding-top: 0;
+  padding-bottom: 15px;
 }
 
 .container-review {
@@ -87,6 +155,20 @@ form button {
 .rounded-circle {
   width: 120px;
   height: 120px;
+}
+.review-text,
+footer p,
+.link-course,
+.link-terms,
+.link-useful,
+.copyright {
+  line-height: 30px;
+}
+.link-course li:first-child,
+.link-terms li:first-child,
+.link-useful li:first-child {
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
 footer {
@@ -110,9 +192,9 @@ footer .container {
   margin-bottom: 0;
 }
 
-#contact {
+#others {
   background-color: #f0fff0;
-  padding: 100px 0;
+  padding: 80px 0;
 }
 form input,
 form textarea {
@@ -128,9 +210,8 @@ form button {
 }
 
 .text-center {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 54px;
+  padding-bottom: 55px;
 }
